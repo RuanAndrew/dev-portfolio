@@ -1,100 +1,74 @@
 schema: hugoblox/author/v1
 slug: me
 is_owner: true
+
 name:
-  display: Alex Johnson
-  given: Alex
-  family: Johnson
-postnominals: []
+  display: 'Ruan Andrew'
+  given: 'Ruan Andrew'
+  postnominals: []
+
 status:
-  icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
-role: Full-Stack Developer
-email: alex@example.com
+  icon: '🎓'
+  badge: student
+
+role: 'Desenvolvedor Backend Júnior | Cientista de Dados'
+
+email: 'ruanandrew06@gmail.com'
+
 bio: |
-  Full-stack developer with 5+ years of experience building scalable web applications.
-  Passionate about modern JavaScript, cloud architecture, and creating delightful user experiences.
+  Estudante de Análise e Desenvolvimento de Sistemas no IFPE, com interesse em desenvolvimento Backend utilizando Java e Spring Boot, além de Machine Learning e Ciência de Dados.
 
 affiliations:
-  - name: Tech Corp
-    url: https://techcorp.example.com
+  - name: 'Instituto Federal de Pernambuco (IFPE) — Campus Paulista'
+    url: 'https://portal.ifpe.edu.br/campus/paulista/'
 
 links:
-  - icon: at-symbol
-    url: mailto:alex@example.com
-    label: E-mail Me
   - icon: brands/github
-    url: https://github.com/alexjohnson
+    url: 'https://github.com/RuanAndrew'
+    label: 'GitHub'
+
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnson/
-  - icon: brands/x
-    url: https://x.com/alexjohnson
+    url: 'https://www.linkedin.com/in/ruan-andrew/'
+    label: 'LinkedIn'
 
 interests:
-  - Web Development
-  - Cloud Architecture
-  - Open Source
-  - Developer Experience
+  - 'Desenvolvimento Backend'
+  - 'Machine Learning'
+  - 'Ciência de Dados'
+  - 'Engenharia de Software'
 
 education:
-  - degree: B.S. Computer Science
-    institution: State University
-    start: 2015-09-01
-    end: 2019-05-31
+  - degree: 'Análise e Desenvolvimento de Sistemas'
+    institution: 'Instituto Federal de Pernambuco (IFPE)'
+    start: '2024-10-01'
+    end: ''
     summary: |
-      Focus on software engineering and distributed systems.
-      Senior project on distributed caching systems.
-    button:
-      text: View Project
-      url: https://github.com/alexjohnson/senior-project
-      icon: brands/github
+      Curso em andamento no Campus Paulista. Coeficiente de rendimento: 8,38.
 
 experience:
-  - role: Senior Software Engineer
-    org: Tech Corp
-    start: 2023-01-01
+  - role: 'Bolsista de Pesquisa — Programa BIA/FACEPE'
+    org: 'Instituto Federal de Pernambuco (IFPE)'
+    start: '2025-04-01'
+    end: '2026-04-30'
     summary: |
-      Lead development of microservices architecture serving 1M+ users.
-      Improved API response time by 40% through optimization.
-      Mentored team of 5 junior developers.
-  - role: Full-Stack Developer
-    org: Startup Inc
-    start: 2021-06-01
-    end: 2022-12-31
-    summary: |
-      Built and deployed 3 production applications from scratch.
-      Implemented CI/CD pipeline reducing deployment time by 60%.
-      Led migration from monolith to microservices architecture.
-  - role: Junior Developer
-    org: Web Agency
-    start: 2020-01-01
-    end: 2021-05-31
-    summary: |
-      Developed client websites using React and modern web technologies.
-      Participated in code reviews and agile ceremonies.
+      Pesquisa sobre aprendizado por reforço utilizando AWS DeepRacer.
+      Configuração e treinamento de agentes, ajuste de funções de recompensa
+      e hiperparâmetros, análise de dados de simulação e produção de
+      tutoriais e documentação técnica.
+      [Conheça os detalhes da pesquisa](/projects/aws-deepracer-bia/)
 
-skills:
-  - name: Development
-    items:
-      - label: TypeScript
-        level: 5
-      - label: React
-        level: 5
-      - label: Node.js
-        level: 5
-      - label: Python
-        level: 4
-  - name: DevOps
-    items:
-      - label: Docker
-        level: 4
-      - label: AWS
-        level: 4
-      - label: CI/CD
-        level: 5
+  - role: 'Operador de Caixa e Atendimento'
+    org: 'CR Adega (autônomo)'
+    start: '2025-01-01'
+    summary: |
+      Atendimento ao cliente, operação de caixa, controle de estoque
+      e resolução de problemas no ambiente profissional.
 
 languages:
-  - name: English
-    level: 5
-    label: Native
+  - name: 'Português'
+    label: 'Nativo'
+
+  - name: 'Inglês'
+    label: 'C2 em leitura e compreensão oral; B2 em escrita e conversação'
 
 awards: []
